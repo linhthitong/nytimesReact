@@ -7,7 +7,8 @@ const SearchResults = props => (
         <li key={result} className="list-group-item" data-id={index}>
           <a href={result['web_url']}><strong>{result['web_url']}</strong></a>
          <p>{result.snippet}</p>
-        </li>
+         <button type="button" class="btn btn-light">Save Article</button>
+          </li>
       ))}
     </ul>
   );
