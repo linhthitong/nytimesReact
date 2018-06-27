@@ -62,7 +62,14 @@ class Home extends Component {
         // get all info off article
         // make api call
         // remove artcle from page
+        // Render on saved article page
         // disable saved button
+        // Post to DB
+    }
+
+    handleDelete = () => {
+        // Call to Db and delete article
+        // Remove from Saved Article Page
     }
 
     render() {

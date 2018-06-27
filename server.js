@@ -21,6 +21,7 @@ app.post("/scrape", (req, res)=>{
   axios.get(queryURL).then(results=>{
     console.log("\n",);
     res.json(results.data.response.docs);
+    console.log(Object.keys)
   }).catch(err=>{
     console.log(err)
   })
